@@ -1,0 +1,1762 @@
+.shopbetta-short-master-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.shopbetta-short-master-shopbetta-short-master {
+  width: 100%;
+  height: 2102px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(244, 244, 244, 1);
+}
+.shopbetta-short-master-shop-box {
+  top: 685px;
+  left: 0px;
+  right: 0px;
+  width: 1920px;
+  height: 296px;
+  margin: auto;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+.shopbetta-short-master-select-categoriesgroup {
+  top: 726px;
+  left: 870px;
+  width: 357px;
+  height: 38px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.shopbetta-short-master-text {
+  left: 0px;
+  color: var(--dl-color-grayscale-gray900);
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 120.00000476837158%;
+}
+.shopbetta-short-master-low-bar {
+  left: 0px;
+  right: 0px;
+  width: 1920px;
+  bottom: 0px;
+  height: 86px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(164, 189, 219, 1);
+}
+.shopbetta-short-master-text02 {
+  top: 23px;
+  left: 697px;
+  color: rgba(59, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-item-set01 {
+  top: 1022px;
+  left: 109px;
+  width: 1701px;
+  height: 912px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.shopbetta-short-master-shop-box1 {
+  top: 55px;
+  left: 0px;
+  width: 1701px;
+  height: 857px;
+  position: absolute;
+  border-radius: 5px;
+}
+.shopbetta-short-master-products-item10 {
+  top: 497px;
+  left: 1343px;
+  width: 286px;
+  height: 346px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-image {
+  top: 0px;
+  left: 0px;
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  border-radius: 10px;
+}
+.shopbetta-short-master-info {
+  gap: 10px;
+  top: 284.5px;
+  left: 7px;
+  width: 228px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.shopbetta-short-master-text04 {
+  color: var(--dl-color-grayscales-black);
+  width: 256px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-prices {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.shopbetta-short-master-text06 {
+  color: var(--dl-color-grayscales-black);
+  height: auto;
+  font-size: 18px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-text08 {
+  color: var(--dl-color-grayscales-gray);
+  height: auto;
+  text-align: left;
+  line-height: 110.00000238418579%;
+}
+.shopbetta-short-master-add-cart {
+  top: 306px;
+  left: 246px;
+  width: 40.33333206176758px;
+  height: 40.381961822509766px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(240, 241, 243, 1);
+}
+.shopbetta-short-master-buy3 {
+  top: 10.554388999938965px;
+  left: 10.083328247070312px;
+  width: 20.16666603088379px;
+  height: 20.190980911254883px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-group {
+  top: 2.7341957092285156px;
+  left: 2.3107640743255615px;
+  width: 15.545907974243164px;
+  height: 15.179408073425293px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.shopbetta-short-master-vector {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 11px;
+  position: absolute;
+}
+.shopbetta-short-master-vector01 {
+  top: 6.347527503967285px;
+  left: 9.558160781860352px;
+  width: 2px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector02 {
+  top: 14.261977195739746px;
+  left: 3.263068199157715px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector03 {
+  top: 14.262402534484863px;
+  left: 12.721802711486816px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-products-status {
+  gap: 10px;
+  top: 12px;
+  left: 7px;
+  width: 54px;
+  display: flex;
+  padding: 6px 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 4px;
+  background-color: var(--dl-color-status-warning);
+}
+.shopbetta-short-master-text10 {
+  color: var(--dl-color-grayscales-white);
+  height: auto;
+  font-size: 13px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-products-item09 {
+  top: 500px;
+  left: 1018px;
+  width: 286px;
+  height: 346px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-image01 {
+  top: 0px;
+  left: 0px;
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  border-radius: 10px;
+}
+.shopbetta-short-master-info01 {
+  gap: 10px;
+  top: 295px;
+  left: 7px;
+  width: 228px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.shopbetta-short-master-text12 {
+  color: var(--dl-color-grayscales-black);
+  width: 256px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-prices01 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.shopbetta-short-master-text14 {
+  color: var(--dl-color-grayscales-black);
+  height: auto;
+  font-size: 18px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-text16 {
+  color: var(--dl-color-grayscales-gray);
+  height: auto;
+  text-align: left;
+  line-height: 110.00000238418579%;
+}
+.shopbetta-short-master-add-cart01 {
+  top: 302.40582275390625px;
+  left: 245.6666717529297px;
+  width: 40.33333206176758px;
+  height: 40.381961822509766px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(240, 241, 243, 1);
+}
+.shopbetta-short-master-buy301 {
+  top: 10.554388999938965px;
+  left: 10.083328247070312px;
+  width: 20.16666603088379px;
+  height: 20.190980911254883px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-group01 {
+  top: 2.7341957092285156px;
+  left: 2.3107640743255615px;
+  width: 15.545907974243164px;
+  height: 15.179408073425293px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.shopbetta-short-master-vector04 {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 11px;
+  position: absolute;
+}
+.shopbetta-short-master-vector05 {
+  top: 6.347527503967285px;
+  left: 9.558160781860352px;
+  width: 2px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector06 {
+  top: 14.261977195739746px;
+  left: 3.263068199157715px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector07 {
+  top: 14.262402534484863px;
+  left: 12.721802711486816px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-products-status01 {
+  gap: 10px;
+  top: 12px;
+  left: 7px;
+  width: 54px;
+  display: flex;
+  padding: 6px 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 4px;
+  background-color: var(--dl-color-status-warning);
+}
+.shopbetta-short-master-text18 {
+  color: var(--dl-color-grayscales-white);
+  height: auto;
+  font-size: 13px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-products-item08 {
+  top: 500px;
+  left: 702px;
+  width: 286px;
+  height: 346px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-image02 {
+  top: 0px;
+  left: 0px;
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  border-radius: 10px;
+}
+.shopbetta-short-master-info02 {
+  gap: 10px;
+  top: 295px;
+  left: 7px;
+  width: 228px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.shopbetta-short-master-text20 {
+  color: var(--dl-color-grayscales-black);
+  width: 256px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-prices02 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.shopbetta-short-master-text22 {
+  color: var(--dl-color-grayscales-black);
+  height: auto;
+  font-size: 18px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-text24 {
+  color: var(--dl-color-grayscales-gray);
+  height: auto;
+  text-align: left;
+  line-height: 110.00000238418579%;
+}
+.shopbetta-short-master-add-cart02 {
+  top: 302.40582275390625px;
+  left: 245.6666717529297px;
+  width: 40.33333206176758px;
+  height: 40.381961822509766px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(240, 241, 243, 1);
+}
+.shopbetta-short-master-buy302 {
+  top: 10.554388999938965px;
+  left: 10.083328247070312px;
+  width: 20.16666603088379px;
+  height: 20.190980911254883px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-group02 {
+  top: 2.7341957092285156px;
+  left: 2.3107640743255615px;
+  width: 15.545907974243164px;
+  height: 15.179408073425293px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.shopbetta-short-master-vector08 {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 11px;
+  position: absolute;
+}
+.shopbetta-short-master-vector09 {
+  top: 6.347527503967285px;
+  left: 9.558160781860352px;
+  width: 2px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector10 {
+  top: 14.261977195739746px;
+  left: 3.263068199157715px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector11 {
+  top: 14.262402534484863px;
+  left: 12.721802711486816px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-products-status02 {
+  gap: 10px;
+  top: 12px;
+  left: 7px;
+  width: 54px;
+  display: flex;
+  padding: 6px 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 4px;
+  background-color: var(--dl-color-status-warning);
+}
+.shopbetta-short-master-text26 {
+  color: var(--dl-color-grayscales-white);
+  height: auto;
+  font-size: 13px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-products-item07 {
+  top: 500px;
+  left: 389px;
+  width: 286px;
+  height: 346px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-image03 {
+  top: 0px;
+  left: 0px;
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  border-radius: 10px;
+}
+.shopbetta-short-master-info03 {
+  gap: 10px;
+  top: 295px;
+  left: 7px;
+  width: 228px;
+  height: 51px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.shopbetta-short-master-text28 {
+  color: var(--dl-color-grayscales-black);
+  width: 256px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-prices03 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.shopbetta-short-master-text30 {
+  color: var(--dl-color-grayscales-black);
+  height: auto;
+  font-size: 18px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-text32 {
+  color: var(--dl-color-grayscales-gray);
+  height: auto;
+  text-align: left;
+  line-height: 110.00000238418579%;
+}
+.shopbetta-short-master-add-cart03 {
+  top: 302.40582275390625px;
+  left: 245.6666717529297px;
+  width: 40.33333206176758px;
+  height: 40.381961822509766px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(240, 241, 243, 1);
+}
+.shopbetta-short-master-buy303 {
+  top: 10.554388999938965px;
+  left: 10.083328247070312px;
+  width: 20.16666603088379px;
+  height: 20.190980911254883px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-group03 {
+  top: 2.7341957092285156px;
+  left: 2.3107640743255615px;
+  width: 15.545907974243164px;
+  height: 15.179408073425293px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.shopbetta-short-master-vector12 {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 11px;
+  position: absolute;
+}
+.shopbetta-short-master-vector13 {
+  top: 6.347527503967285px;
+  left: 9.558160781860352px;
+  width: 2px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector14 {
+  top: 14.261977195739746px;
+  left: 3.263068199157715px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector15 {
+  top: 14.262402534484863px;
+  left: 12.721802711486816px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-products-status03 {
+  gap: 10px;
+  top: 12px;
+  left: 7px;
+  width: 54px;
+  display: flex;
+  padding: 6px 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 4px;
+  background-color: var(--dl-color-status-warning);
+}
+.shopbetta-short-master-text34 {
+  color: var(--dl-color-grayscales-white);
+  height: auto;
+  font-size: 13px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-products-item06 {
+  top: 500px;
+  left: 81px;
+  width: 286px;
+  height: 346px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-image04 {
+  top: 0px;
+  left: 0px;
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  border-radius: 10px;
+}
+.shopbetta-short-master-info04 {
+  gap: 10px;
+  top: 295px;
+  left: 7px;
+  width: 228px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.shopbetta-short-master-text36 {
+  color: var(--dl-color-grayscales-black);
+  width: 256px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-prices04 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.shopbetta-short-master-text38 {
+  color: var(--dl-color-grayscales-black);
+  height: auto;
+  font-size: 18px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-add-cart04 {
+  top: 302.40582275390625px;
+  left: 245.6666717529297px;
+  width: 40.33333206176758px;
+  height: 40.381961822509766px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(240, 241, 243, 1);
+}
+.shopbetta-short-master-buy304 {
+  top: 10.554388999938965px;
+  left: 10.083328247070312px;
+  width: 20.16666603088379px;
+  height: 20.190980911254883px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-group04 {
+  top: 2.7341957092285156px;
+  left: 2.3107640743255615px;
+  width: 15.545907974243164px;
+  height: 15.179408073425293px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.shopbetta-short-master-vector16 {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 11px;
+  position: absolute;
+}
+.shopbetta-short-master-vector17 {
+  top: 6.347527503967285px;
+  left: 9.558160781860352px;
+  width: 2px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector18 {
+  top: 14.261977195739746px;
+  left: 3.263068199157715px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector19 {
+  top: 14.262402534484863px;
+  left: 12.721802711486816px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-products-status04 {
+  gap: 10px;
+  top: 12px;
+  left: 7px;
+  width: 79px;
+  display: flex;
+  padding: 6px 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 4px;
+  background-color: rgba(122, 122, 122, 1);
+}
+.shopbetta-short-master-text40 {
+  color: var(--dl-color-grayscales-white);
+  height: auto;
+  font-size: 13px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-products-item05 {
+  top: 105px;
+  left: 1343px;
+  width: 286px;
+  height: 346px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-image05 {
+  top: 0px;
+  left: 0px;
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  border-radius: 10px;
+}
+.shopbetta-short-master-info05 {
+  gap: 10px;
+  top: 295px;
+  left: 7px;
+  width: 228px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.shopbetta-short-master-text42 {
+  color: var(--dl-color-grayscales-black);
+  width: 256px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-prices05 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.shopbetta-short-master-text44 {
+  color: var(--dl-color-grayscales-black);
+  height: auto;
+  font-size: 18px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-text46 {
+  color: var(--dl-color-grayscales-gray);
+  height: auto;
+  text-align: left;
+  line-height: 110.00000238418579%;
+}
+.shopbetta-short-master-add-cart05 {
+  top: 302.40582275390625px;
+  left: 245.6666717529297px;
+  width: 40.33333206176758px;
+  height: 40.381961822509766px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(240, 241, 243, 1);
+}
+.shopbetta-short-master-buy305 {
+  top: 10.554388999938965px;
+  left: 10.083328247070312px;
+  width: 20.16666603088379px;
+  height: 20.190980911254883px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-group05 {
+  top: 2.7341957092285156px;
+  left: 2.3107640743255615px;
+  width: 15.545907974243164px;
+  height: 15.179408073425293px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.shopbetta-short-master-vector20 {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 11px;
+  position: absolute;
+}
+.shopbetta-short-master-vector21 {
+  top: 6.347527503967285px;
+  left: 9.558160781860352px;
+  width: 2px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector22 {
+  top: 14.261977195739746px;
+  left: 3.263068199157715px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector23 {
+  top: 14.262402534484863px;
+  left: 12.721802711486816px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-products-status05 {
+  gap: 10px;
+  top: 12px;
+  left: 7px;
+  width: 54px;
+  display: flex;
+  padding: 6px 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 4px;
+  background-color: var(--dl-color-status-warning);
+}
+.shopbetta-short-master-text48 {
+  color: var(--dl-color-grayscales-white);
+  height: auto;
+  font-size: 13px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-products-item04 {
+  top: 105px;
+  left: 1018px;
+  width: 286px;
+  height: 346px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-image06 {
+  top: 0px;
+  left: 0px;
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  border-radius: 10px;
+}
+.shopbetta-short-master-info06 {
+  gap: 10px;
+  top: 295px;
+  left: 7px;
+  width: 228px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.shopbetta-short-master-text50 {
+  color: var(--dl-color-grayscales-black);
+  width: 256px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-prices06 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.shopbetta-short-master-text52 {
+  color: var(--dl-color-grayscales-black);
+  height: auto;
+  font-size: 18px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-add-cart06 {
+  top: 302.40582275390625px;
+  left: 245.6666717529297px;
+  width: 40.33333206176758px;
+  height: 40.381961822509766px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(240, 241, 243, 1);
+}
+.shopbetta-short-master-buy306 {
+  top: 10.554388999938965px;
+  left: 10.083328247070312px;
+  width: 20.16666603088379px;
+  height: 20.190980911254883px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-group06 {
+  top: 2.7341957092285156px;
+  left: 2.3107640743255615px;
+  width: 15.545907974243164px;
+  height: 15.179408073425293px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.shopbetta-short-master-vector24 {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 11px;
+  position: absolute;
+}
+.shopbetta-short-master-vector25 {
+  top: 6.347527503967285px;
+  left: 9.558160781860352px;
+  width: 2px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector26 {
+  top: 14.261977195739746px;
+  left: 3.263068199157715px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector27 {
+  top: 14.262402534484863px;
+  left: 12.721802711486816px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-products-status06 {
+  gap: 10px;
+  top: 12px;
+  left: 7px;
+  width: 79px;
+  display: flex;
+  padding: 6px 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 4px;
+  background-color: rgba(192, 165, 150, 1);
+}
+.shopbetta-short-master-text54 {
+  color: var(--dl-color-grayscales-white);
+  height: auto;
+  font-size: 13px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-products-item03 {
+  top: 105px;
+  left: 702px;
+  width: 286px;
+  height: 346px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-image07 {
+  top: 0px;
+  left: 0px;
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  border-radius: 10px;
+}
+.shopbetta-short-master-info07 {
+  gap: 10px;
+  top: 295px;
+  left: 7px;
+  width: 228px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.shopbetta-short-master-text56 {
+  color: var(--dl-color-grayscales-black);
+  width: 256px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-prices07 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.shopbetta-short-master-text58 {
+  color: var(--dl-color-grayscales-black);
+  height: auto;
+  font-size: 18px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-text60 {
+  color: var(--dl-color-grayscales-gray);
+  height: auto;
+  text-align: left;
+  line-height: 110.00000238418579%;
+}
+.shopbetta-short-master-add-cart07 {
+  top: 302.40582275390625px;
+  left: 245.6666717529297px;
+  width: 40.33333206176758px;
+  height: 40.381961822509766px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(240, 241, 243, 1);
+}
+.shopbetta-short-master-buy307 {
+  top: 10.554388999938965px;
+  left: 10.083328247070312px;
+  width: 20.16666603088379px;
+  height: 20.190980911254883px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-group07 {
+  top: 2.7341957092285156px;
+  left: 2.3107640743255615px;
+  width: 15.545907974243164px;
+  height: 15.179408073425293px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.shopbetta-short-master-vector28 {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 11px;
+  position: absolute;
+}
+.shopbetta-short-master-vector29 {
+  top: 6.347527503967285px;
+  left: 9.558160781860352px;
+  width: 2px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector30 {
+  top: 14.261977195739746px;
+  left: 3.263068199157715px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector31 {
+  top: 14.262402534484863px;
+  left: 12.721802711486816px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-products-status07 {
+  gap: 10px;
+  top: 12px;
+  left: 7px;
+  width: 54px;
+  display: flex;
+  padding: 6px 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 4px;
+  background-color: var(--dl-color-status-warning);
+}
+.shopbetta-short-master-text62 {
+  color: var(--dl-color-grayscales-white);
+  height: auto;
+  font-size: 13px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-products-item02 {
+  top: 105px;
+  left: 389px;
+  width: 286px;
+  height: 346px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-image08 {
+  top: 0px;
+  left: 0px;
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  border-radius: 10px;
+}
+.shopbetta-short-master-info08 {
+  gap: 10px;
+  top: 295px;
+  left: 7px;
+  width: 228px;
+  height: 51px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.shopbetta-short-master-text64 {
+  color: var(--dl-color-grayscales-black);
+  width: 256px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-prices08 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+}
+.shopbetta-short-master-text66 {
+  color: var(--dl-color-grayscales-black);
+  height: auto;
+  font-size: 18px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-text68 {
+  color: var(--dl-color-grayscales-gray);
+  height: auto;
+  text-align: left;
+  line-height: 110.00000238418579%;
+}
+.shopbetta-short-master-add-cart08 {
+  top: 302.40582275390625px;
+  left: 245.6666717529297px;
+  width: 40.33333206176758px;
+  height: 40.381961822509766px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(240, 241, 243, 1);
+}
+.shopbetta-short-master-buy308 {
+  top: 10.554388999938965px;
+  left: 10.083328247070312px;
+  width: 20.16666603088379px;
+  height: 20.190980911254883px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-group08 {
+  top: 2.7341957092285156px;
+  left: 2.3107640743255615px;
+  width: 15.545907974243164px;
+  height: 15.179408073425293px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.shopbetta-short-master-vector32 {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 11px;
+  position: absolute;
+}
+.shopbetta-short-master-vector33 {
+  top: 6.347527503967285px;
+  left: 9.558160781860352px;
+  width: 2px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector34 {
+  top: 14.261977195739746px;
+  left: 3.263068199157715px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector35 {
+  top: 14.262402534484863px;
+  left: 12.721802711486816px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-products-status08 {
+  gap: 10px;
+  top: 12px;
+  left: 7px;
+  width: 54px;
+  display: flex;
+  padding: 6px 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 4px;
+  background-color: var(--dl-color-status-warning);
+}
+.shopbetta-short-master-text70 {
+  color: var(--dl-color-grayscales-white);
+  height: auto;
+  font-size: 13px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-products-item01 {
+  top: 105px;
+  left: 81px;
+  width: 286px;
+  height: 346px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-image09 {
+  top: 0px;
+  left: 0px;
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  border-radius: 10px;
+}
+.shopbetta-short-master-info09 {
+  gap: 10px;
+  top: 295px;
+  left: 7px;
+  width: 228px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.shopbetta-short-master-text72 {
+  color: var(--dl-color-grayscales-black);
+  width: 256px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-prices09 {
+  gap: 4px;
+  display: flex;
+}
+.shopbetta-short-master-text74 {
+  font-size: 18px;
+  font-style:oblique;
+}
+.shopbetta-short-master-text76 {
+  color: var(--dl-color-grayscales-gray);
+  height: auto;
+  text-align: left;
+  line-height: 110.00000238418579%;
+}
+.shopbetta-short-master-add-cart09 {
+  top: 302.40582275390625px;
+  left: 245.6666717529297px;
+  width: 40.33333206176758px;
+  height: 40.381961822509766px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(240, 241, 243, 1);
+}
+.shopbetta-short-master-buy309 {
+  top: 10.554388999938965px;
+  left: 10.083328247070312px;
+  width: 20.16666603088379px;
+  height: 20.190980911254883px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-group09 {
+  top: 2.7341957092285156px;
+  left: 2.3107640743255615px;
+  width: 15.545907974243164px;
+  height: 15.179408073425293px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.shopbetta-short-master-vector36 {
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 11px;
+  position: absolute;
+}
+.shopbetta-short-master-vector37 {
+  top: 6.347527503967285px;
+  left: 9.558160781860352px;
+  width: 2px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector38 {
+  top: 14.261977195739746px;
+  left: 3.263068199157715px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector39 {
+  top: 14.262402534484863px;
+  left: 12.721802711486816px;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-products-status09 {
+  gap: 10px;
+  top: 12px;
+  left: 7px;
+  width: 54px;
+  display: flex;
+  padding: 6px 10px;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 4px;
+  background-color: var(--dl-color-status-warning);
+}
+.shopbetta-short-master-text78 {
+  color: var(--dl-color-grayscales-white);
+  height: auto;
+  font-size: 13px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-select-betta-shortgroup {
+  top: 0px;
+  left: 0px;
+  width: 1697px;
+  height: 38px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.shopbetta-short-master-text80 {
+  left: 0px;
+  color: var(--dl-color-grayscale-gray900);
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 120.00000476837158%;
+}
+.shopbetta-short-master-button {
+  gap: 12px;
+  top: 6px;
+  left: 1607px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-radius: 43px;
+  justify-content: center;
+}
+.shopbetta-short-master-text82 {
+  color: var(--dl-color-branding-success);
+  height: auto;
+  align-self: center;
+  text-align: left;
+  line-height: 150%;
+}
+.shopbetta-short-master-group10 {
+  width: 15px;
+  height: 12.048999786376953px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.shopbetta-short-master-vector40 {
+  top: 6.024999618530273px;
+  left: 0px;
+  width: 15px;
+  height: 1px;
+  position: absolute;
+}
+.shopbetta-short-master-vector41 {
+  top: 0px;
+  left: 8.949999809265137px;
+  width: 6px;
+  height: 12px;
+  position: absolute;
+}
+.shopbetta-short-master-search-set01 {
+  top: 99px;
+  left: 0px;
+  right: 0px;
+  width: 1920.996826171875px;
+  height: 586px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(238, 238, 238, 1);
+}
+.shopbetta-short-master-seacrh-box {
+    top: 306px;
+    left: 0px;
+    right: 0px;
+    width: 1098.714111328125px;
+    height: 76px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(255, 255, 255, 1);
+    text-align:center;
+}
+.shopbetta-short-master-ionsearchoutline {
+  top: 325px;
+  left: 1450px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+}
+.shopbetta-short-master-text84 {
+  top: 25px;
+  left: 24.037403106689453px;
+  color: var(--dl-color-grayscale-gray900);
+  width: 394px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Light;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-all-categoriesgroup {
+  top: 60px;
+  left: 590.921875px;
+  width: 726.1328125px;
+  height: 173px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.shopbetta-short-master-text86 {
+  color: rgba(0, 0, 0, 1);
+  width: 726px;
+  height: auto;
+  position: absolute;
+  font-size: 96px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-text88 {
+  top: 115px;
+  left: 51.079689025878906px;
+  color: rgba(0, 0, 0, 1);
+  width: 625px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-search-selectionddl02 {
+  top: 808px;
+  left: 714px;
+  width: 506px;
+  height: 51px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.shopbetta-short-master-rectangle104 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 506px;
+  height: 51px;
+  margin: auto;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+.shopbetta-short-master-text90 {
+  top: 11px;
+  left: 17px;
+  color: var(--dl-color-grayscale-gray900);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.shopbetta-short-master-vector42 {
+  top: 22px;
+  left: 474px;
+  width: 15px;
+  height: 9px;
+  position: absolute;
+}

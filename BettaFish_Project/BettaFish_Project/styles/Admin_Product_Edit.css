@@ -1,0 +1,791 @@
+.admin-product-master-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.admin-product-master-admin-product-master {
+  width: 100%;
+  height: 2900px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(208, 208, 208, 1);
+}
+.admin-product-master-bodyview {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 2950px;
+  position: absolute;
+}
+.admin-product-master-container1 {
+  top: 152px;
+  left: 0px;
+  right: 0px;
+  width: 1752px;
+  height: 3186px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.admin-product-master-masterbox {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 1752px;
+  height: 2700px;
+  margin: auto;
+  position: absolute;
+  border-radius: 10px;
+}
+.admin-product-master-group111 {
+    top: 2500px;
+    left: 278px;
+    width: 335px;
+    bottom: 79.8522720336914px;
+    height: 70.15538787841797px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+}
+.admin-product-master-group15 {
+  top: 0px;
+  left: 0px;
+  width: 62.888484954833984px;
+  height: 70.15538787841797px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(217, 217, 217, 1);
+}
+.admin-product-master-addaphoto {
+  top: 8.25346565246582px;
+  left: 5.8857421875px;
+  width: 49.39023971557617px;
+  height: 55.02383804321289px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(217, 217, 217, 1);
+}
+.admin-product-master-addaphoto1 {
+  top: 2px;
+  left: 0px;
+  right: 0px;
+  width: 45px;
+  height: 46px;
+  margin: auto;
+  position: absolute;
+}
+.admin-product-master-text {
+  top: 13px;
+  left: 84px;
+  color: rgba(0, 0, 0, 1);
+  width: 251px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-product-id {
+  top: 192px;
+  left: 173px;
+  width: 939px;
+  height: 122px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-product-master-rectangle2 {
+  top: 36px;
+  left: 0px;
+  width: 931px;
+  height: 86px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-product-master-text02 {
+  top: 2px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-product-id1 {
+  top: 364px;
+  left: 173px;
+  width: 1411px;
+  height: 523px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-product-master-rectangle21 {
+  top: 36px;
+  left: 0px;
+  width: 1403px;
+  height: 487px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-product-master-text04 {
+  top: 2px;
+  color: rgb(0, 0, 0);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-regisitem {
+  top: 350px;
+  left: 165px;
+  width: 1419px;
+  height: 2086px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-product-master-product-sub-category {
+  top: 1385px;
+  left: 0px;
+  width: 1419px;
+  height: 131px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-product-master-rectangle22 {
+  top: 45px;
+  left: 0px;
+  width: 1409px;
+  height: 86px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-product-master-text05 {
+  top: 2px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-vector {
+  top: 79px;
+  left: 1361px;
+  width: 28px;
+  height: 17px;
+  position: absolute;
+}
+.admin-product-master-product-category {
+  top: 1182px;
+  left: 0px;
+  width: 1419px;
+  height: 133px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-product-master-rectangle23 {
+  top: 47px;
+  left: 0px;
+  width: 1409px;
+  height: 86px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-product-master-text07 {
+  top: 2px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-vector1 {
+  top: 81px;
+  left: 1361px;
+  width: 28px;
+  height: 17px;
+  position: absolute;
+}
+.admin-product-master-product-sex {
+  top: 976px;
+  left: 8px;
+  width: 1411px;
+  height: 136px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-product-master-text09 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-button {
+  gap: 16px;
+  top: 56px;
+  left: 195px;
+  width: 120px;
+  height: 73px;
+  display: flex;
+  padding: 16px 40px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 43px;
+  justify-content: center;
+}
+.admin-product-master-text11 {
+  color: var(--dl-color-grayscale-white);
+  height: auto;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-button1 {
+  gap: 16px;
+  top: 56px;
+  left: 0px;
+  width: 120px;
+  height: 73px;
+  display: flex;
+  padding: 16px 40px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 43px;
+  justify-content: center;
+}
+.admin-product-master-text13 {
+  color: var(--dl-color-grayscale-white);
+  height: auto;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-group134 {
+  top: 0px;
+  left: 1148px;
+  width: 263px;
+  height: 136px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-product-master-rectangle3 {
+  top: 45px;
+  left: 0px;
+  width: 263px;
+  height: 86px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-product-master-text15 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-group135 {
+  top: 0px;
+  left: 854px;
+  width: 263px;
+  height: 136px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-product-master-rectangle31 {
+  top: 45px;
+  left: 0px;
+  width: 263px;
+  height: 86px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-product-master-text17 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-group136 {
+  top: 0px;
+  left: 560px;
+  width: 263px;
+  height: 136px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-product-master-rectangle32 {
+  top: 45px;
+  left: 0px;
+  width: 263px;
+  height: 86px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-product-master-text19 {
+  left: 19px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-product-detail {
+  top: 525px;
+  left: 8px;
+  width: 1411px;
+  height: 381px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-product-master-rectangle24 {
+  top: 45px;
+  left: 0px;
+  width: 1401px;
+  height: 336px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-product-master-text21 {
+  top: 2px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-product-price {
+  top: 347px;
+  left: 8px;
+  width: 1411px;
+  height: 131px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-product-master-rectangle25 {
+  top: 45px;
+  left: 0px;
+  width: 1401px;
+  height: 86px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-product-master-text23 {
+  top: 2px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-product-name {
+  top: 169px;
+  left: 9px;
+  width: 1410px;
+  height: 131px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-product-master-rectangle26 {
+  top: 45px;
+  left: 0px;
+  width: 1401px;
+  height: 86px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-product-master-text25 {
+  top: 2px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-product-id2 {
+  top: 0px;
+  left: 10px;
+  width: 1409px;
+  height: 122px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-product-master-rectangle27 {
+  top: 36px;
+  left: 0px;
+  width: 1401px;
+  height: 86px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-product-master-text27 {
+  top: 2px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-product-id3 {
+  top: 1586px;
+  left: 10px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-product-master-rectangle28 {
+  top: 47.92044448852539px;
+  left: 0px;
+  width: 500px;
+  height: 452px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-product-master-text29 {
+  top: 2px;
+  left: 0px;
+  color: rgba(0, 0, 0, 1);
+  width: 191px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-registergroup {
+    top: 2500px;
+    right: 168px;
+    width: 430px;
+    bottom: 163.88636016845703px;
+    height: 90.12353515625px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(13, 65, 102, 1);
+}
+.admin-product-master-text31 {
+  top: 8px;
+  left: 0px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-product-sex1 {
+  left: 800px;
+  top: 1940px;
+  width: 364px;
+  bottom: 545px;
+  height: 121px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-product-master-text32 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-button2 {
+  gap: 16px;
+  top: 48px;
+  left: 190px;
+  width: 120px;
+  height: 73px;
+  display: flex;
+  padding: 16px 40px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 43px;
+  justify-content: center;
+}
+.admin-product-master-text34 {
+  color: var(--dl-color-grayscale-white);
+  height: auto;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-button3 {
+  gap: 16px;
+  top: 48px;
+  left: 0px;
+  width: 120px;
+  height: 73px;
+  display: flex;
+  padding: 16px 40px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 43px;
+  justify-content: center;
+}
+.admin-product-master-text36 {
+  color: var(--dl-color-grayscale-white);
+  height: auto;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-registergroup1 {
+  top: 224px;
+  right: 162px;
+  width: 430px;
+  height: 90.12353515625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(13, 65, 102, 1);
+}
+.admin-product-master-text38 {
+  top: 8px;
+  left: 0px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-product-master-text39 {
+  top: 50px;
+  left: 0px;
+  color: rgb(0, 0, 0);
+  right: 0px;
+  width: 591px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ProductImage {
+    width: 500px; 
+    height: 453px;
+}

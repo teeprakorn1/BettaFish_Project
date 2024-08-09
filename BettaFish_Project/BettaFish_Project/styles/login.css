@@ -1,0 +1,225 @@
+.login-master-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.login-master-login-master {
+  width: 100%;
+  height: 1280px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(223, 240, 255, 1);
+}
+.login-master-bodyview {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 1920px;
+  height: 1280px;
+  margin: auto;
+  position: absolute;
+}
+.login-master-loginitem {
+  top: 147px;
+  left: 413px;
+  width: 1093px;
+  height: 1022px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.login-master-registext {
+  top: 877px;
+  left: 249px;
+  width: 623px;
+  height: 59px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.login-master-text {
+  left: 450px;
+  color: rgba(60, 150, 150, 1);
+  right: 0px;
+  width: 176px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-master-text02 {
+  left: 0px;
+  color: rgba(0, 0, 0, 1);
+  right: 300px;
+  width: 450px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-master-rectangle85 {
+  top: 785px;
+  left: 55px;
+  width: 984px;
+  height: 6px;
+  position: absolute;
+  border-radius: 20px;
+}
+.login-master-logingroup {
+  top: 620px;
+  left: 0px;
+  right: 0px;
+  width: 430px;
+  height: 90.12353515625px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(13, 65, 102, 1);
+}
+.login-master-text04 {
+  top: 10px;
+  left: 0px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  bottom: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-master-password-box-group {
+  top: 404px;
+  left: 197px;
+  width: 699px;
+  height: 135px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.login-master-rectangle2 {
+  top: 50px;
+  left: 6px;
+  width: 693px;
+  height: 86px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.login-master-text05 {
+  top: 0px;
+  left: 0px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: flex-start;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-master-username-box-group {
+  top: 238px;
+  left: 197px;
+  width: 699px;
+  height: 135px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.login-master-rectangle21 {
+  top: 50px;
+  left: 6px;
+  width: 693px;
+  height: 86px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.login-master-text07 {
+  left: 0px;
+  color: rgb(0, 0, 0);
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-master-welcome-text-group {
+  top: 62px;
+  left: 0px;
+  right: 0px;
+  width: 304px;
+  height: 144px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.login-master-text08 {
+  left: 0px;
+  color: rgba(0, 0, 0, 1);
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 96px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

@@ -1,0 +1,691 @@
+.admin-delivery-master-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.admin-delivery-master-admin-delivery-master {
+  width: 100%;
+  height: 2371px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(208, 208, 208, 1);
+}
+.admin-delivery-master-bodyview {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 2371px;
+  position: absolute;
+}
+.admin-delivery-master-deliverybox {
+  top: 148px;
+  left: 78px;
+  width: 1752px;
+  height: 2129px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.admin-delivery-master-regisitem {
+  top: 49px;
+  left: 203px;
+  width: 1417px;
+  height: 1982.12353515625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-delivery-master-product-sex {
+  top: 729px;
+  left: 0px;
+  width: 375px;
+  height: 129px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-delivery-master-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-button {
+  gap: 16px;
+  top: 56px;
+  left: 205px;
+  width: 120px;
+  height: 73px;
+  display: flex;
+  padding: 16px 40px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 43px;
+  justify-content: center;
+}
+.admin-delivery-master-text02 {
+  color: var(--dl-color-grayscale-white);
+  height: auto;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-button1 {
+  gap: 16px;
+  top: 56px;
+  left: 11px;
+  width: 120px;
+  height: 73px;
+  display: flex;
+  padding: 16px 40px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 43px;
+  justify-content: center;
+}
+.admin-delivery-master-text04 {
+  color: var(--dl-color-grayscale-white);
+  height: auto;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-product-sex1 {
+  top: 940px;
+  left: 0px;
+  width: 760px;
+  height: 129px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-delivery-master-text06 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-button2 {
+  gap: 16px;
+  top: 56px;
+  left: 690px;
+  width: 100px;
+  height: 73px;
+  display: flex;
+  padding: 16px 40px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 43px;
+  justify-content: center;
+}
+.admin-delivery-master-text08 {
+  color: var(--dl-color-grayscale-white);
+  height: auto;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-button3 {
+  gap: 16px;
+  top: 56px;
+  left: 474px;
+  width: 100px;
+  height: 73px;
+  display: flex;
+  padding: 16px 40px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 43px;
+  justify-content: center;
+}
+.admin-delivery-master-text10 {
+  color: var(--dl-color-grayscale-white);
+  height: auto;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-button4 {
+  gap: 16px;
+  top: 56px;
+  left: 240px;
+  width: 100px;
+  height: 73px;
+  display: flex;
+  padding: 16px 40px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 43px;
+  justify-content: center;
+}
+.admin-delivery-master-text12 {
+  color: var(--dl-color-grayscale-white);
+  height: auto;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-button5 {
+  gap: 16px;
+  top: 56px;
+  left: 14px;
+  width: 100px;
+  height: 73px;
+  display: flex;
+  padding: 16px 40px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 43px;
+  justify-content: center;
+}
+.admin-delivery-master-text14 {
+  color: var(--dl-color-grayscale-white);
+  height: auto;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-product-id {
+  top: 283px;
+  left: 0px;
+  width: 1348px;
+  height: 122px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-delivery-master-rectangle2 {
+  top: 36px;
+  left: 0px;
+  right: 0px;
+  width: 1340px;
+  height: 86px;
+  margin: auto;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-delivery-master-text16 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-product-id1 {
+  top: 433px;
+  left: 0px;
+  width: 1348px;
+  height: 122px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-delivery-master-rectangle21 {
+  top: 36px;
+  left: 0px;
+  right: 0px;
+  width: 1340px;
+  height: 86px;
+  margin: auto;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-delivery-master-text18 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-product-id2 {
+  top: 572px;
+  left: 0px;
+  width: 1345px;
+  height: 122px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-delivery-master-rectangle22 {
+  top: 36px;
+  left: 0px;
+  right: 0px;
+  width: 1340px;
+  height: 86px;
+  margin: auto;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-delivery-master-text20 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-product-id3 {
+  top: 1150px;
+  left: 0px;
+  width: 1345px;
+  height: 122px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-delivery-master-rectangle23 {
+  top: 36px;
+  left: 0px;
+  right: 0px;
+  width: 1340px;
+  height: 86px;
+  margin: auto;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-delivery-master-text22 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-product-id4 {
+  top: 1307px;
+  left: 0px;
+  width: 1345px;
+  height: 122px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-delivery-master-rectangle24 {
+  top: 36px;
+  left: 0px;
+  right: 0px;
+  width: 1340px;
+  height: 86px;
+  margin: auto;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-delivery-master-text24 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-product-id5 {
+  top: 1457px;
+  left: 0px;
+  width: 1345px;
+  height: 122px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-delivery-master-rectangle25 {
+  top: 36px;
+  left: 0px;
+  right: 0px;
+  width: 1340px;
+  height: 86px;
+  margin: auto;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-delivery-master-text26 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-product-id6 {
+  top: 1614px;
+  left: 0px;
+  width: 1345px;
+  height: 122px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-delivery-master-rectangle26 {
+  top: 36px;
+  left: 5px;
+  width: 1340px;
+  height: 86px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-delivery-master-text28 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-product-id7 {
+  top: 729px;
+  left: 984px;
+  width: 361px;
+  height: 386px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-delivery-master-rectangle27 {
+  top: 36px;
+  left: 0px;
+  right: 0px;
+  width: 350px;
+  height: 350px;
+  margin: auto;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-delivery-master-text30 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-registergroup {
+  top: 1892px;
+  left: 984px;
+  width: 430px;
+  height: 90.12353515625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(13, 65, 102, 1);
+}
+.admin-delivery-master-text32 {
+  top: 10px;
+  left: 0px;
+  color: rgba(255, 255, 255, 1);
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-registergroup1 {
+  top: 1892px;
+  left: 499px;
+  width: 430px;
+  height: 90.12353515625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(13, 65, 102, 1);
+}
+.admin-delivery-master-text34 {
+  top: 10px;
+  left: 0px;
+  color: rgba(255, 255, 255, 1);
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-group137 {
+  top: 116px;
+  left: 0px;
+  width: 1417px;
+  height: 126.12353515625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-delivery-master-product-id8 {
+  top: 0px;
+  left: 0px;
+  width: 939px;
+  height: 126px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-delivery-master-rectangle28 {
+  top: 40px;
+  left: 0px;
+  right: 0px;
+  width: 931px;
+  height: 86px;
+  margin: auto;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-delivery-master-text36 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-registergroup2 {
+  top: 36px;
+  left: 987px;
+  width: 430px;
+  height: 90.12353515625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(13, 65, 102, 1);
+}
+.admin-delivery-master-text38 {
+  top: 10px;
+  left: 0px;
+  color: rgba(255, 255, 255, 1);
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-delivery-master-text40 {
+  top: 50px;
+  left: 0px;
+  color: rgba(0, 0, 0, 1);
+  right: 0px;
+  width: 591px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

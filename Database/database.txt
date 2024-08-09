@@ -1,0 +1,286 @@
+--User=Toey;
+--Password=1234;
+
+USE BettaFishDB;
+
+CREATE DATABASE BettaFishDB
+COLLATE Thai_BIN;
+
+CREATE TABLE Users(
+Users_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+Users_Username VARCHAR(128),
+Users_Password VARCHAR(64),
+Users_FName VARCHAR(128),
+Users_LName VARCHAR(128),
+Users_Email VARCHAR(128),
+Users_Phone VARCHAR(20),
+Users_RegisDate DATETIME DEFAULT CURRENT_TIMESTAMP,
+Users_BirtDate DATE,
+Users_ActiveStatus INT DEFAULT '1',
+UserType_ID INT FOREIGN KEY REFERENCES UserType(UserType_ID)
+);
+
+CREATE TABLE [Address](
+Address_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+Address_Name VARCHAR(128),
+Address_Detail VARCHAR(1024),
+Users_ID INT FOREIGN KEY REFERENCES Users(Users_ID)
+);
+
+CREATE TABLE UserType(
+UserType_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+UserType_Name VARCHAR(10)
+);
+
+CREATE TABLE Product(
+Product_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+Product_Name VARCHAR(128),
+Product_Price INT,
+Product_Detail VARCHAR(1000),
+Product_Equipment_Amount INT,
+Product_Female_Amount INT,
+Product_Male_Amount INT,
+Product_RegisDate DATE DEFAULT CURRENT_TIMESTAMP,
+Product_Image VARCHAR(128),
+Product_ActiveStatus INT DEFAULT 1,
+SubCategory_ID INT FOREIGN KEY REFERENCES SubCategories(SubCategory_ID)
+);
+
+CREATE TABLE SubCategories(
+SubCategory_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+SubCategory_Name VARCHAR(128),
+MainCategory_ID INT FOREIGN KEY REFERENCES MainCategories(MainCategory_ID)
+);
+
+CREATE TABLE MainCategories(
+MainCategory_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+MainCategory_Name VARCHAR(128)
+);
+
+CREATE TABLE Cart_Orders(
+Cart_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+Users_ID INT FOREIGN KEY REFERENCES Users(Users_ID),
+Product_ID INT FOREIGN KEY REFERENCES Product(Product_ID),
+Cart_Equipment_Quality INT,
+Cart_Female_Quality INT,
+Cart_Male_Quality INT
+);
+
+CREATE TABLE Promotion(
+Promotion_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+Promotion_CodeName VARCHAR(128),
+Promotion_Percent INT,
+Promotion_RegisDate DATE DEFAULT CURRENT_TIMESTAMP,
+Promotion_ActiveStatus INT DEFAULT 1
+);
+
+CREATE TABLE PaymentStatus(
+PaymentStatus_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+PaymentStatus_Name VARCHAR(128)
+);
+
+CREATE TABLE Payment(
+Payment_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+Payment_Image VARCHAR(128),
+PaymentStatus_ID INT FOREIGN KEY REFERENCES PaymentStatus(PaymentStatus_ID)
+);
+
+CREATE TABLE DeliveryType(
+DeliveryType_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+DeliveryType_Name VARCHAR(128)
+);
+
+CREATE TABLE DeliveryStatus(
+DeliveryStatus_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+DeliveryStatus_Name VARCHAR(128)
+);
+
+CREATE TABLE Delivery(
+Delivery_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+Delivery_RegisDate DATE DEFAULT CURRENT_TIMESTAMP,
+);
+
+SELECT * FROM Promotion
+SELECT * FROM Cart_Orders
+SELECT * FROM MainCategories
+SELECT * FROM SubCategories
+SELECT * FROM Product 
+SELECT * FROM Users;
+SELECT * FROM UserType;
+SELECT * FROM Delivery;
+SELECT * FROM DeliveryStatus;
+SELECT * FROM DeliveryType;
+SELECT * FROM Payment;
+SELECT * FROM PaymentStatus;
+SELECT * FROM [Address];
+SELECT * FROM [Address] WHERE Users_ID = '3'
+SELECT COUNT(*) FROM [Address] WHERE Users_ID = '3'
+
+
+SELECT Users_FName,Users_LName,Users_Phone FROM Users WHERE Users_ID = '3';
+SELECT COUNT(*) FROM Users WHERE Users_ID = '3'
+UPDATE Users SET Users_FName ='Tee',Users_LName ='Kum',Users_Phone ='0922957363' WHERE Users_ID = '3'
+
+
+
+SELECT SubCategory_ID FROM SubCategories WHERE SubCategory_Name = 'Short'
+
+SELECT P.*,S.SubCategory_Name,M.MainCategory_Name FROM ((Product P
+INNER JOIN SubCategories S ON P.SubCategory_ID = S.SubCategory_ID)
+INNER JOIN MainCategories M ON S.MainCategory_ID = M.MainCategory_ID)
+WHERE P.Product_ID = '1';
+
+UPDATE Promotion SET Promotion_CodeName ='',Promotion_Percent ='',Promotion_ActiveStatus ='' WHERE Promotion_ID = '1';
+
+INSERT INTO MainCategories(
+MainCategory_Name
+)VALUES(
+'BettaFish'
+);
+INSERT INTO MainCategories(
+MainCategory_Name
+)VALUES(
+'Tool'
+);
+INSERT INTO MainCategories(
+MainCategory_Name
+)VALUES(
+'Other'
+);
+INSERT INTO SubCategories(
+SubCategory_Name,MainCategory_ID
+)VALUES(
+'Short','1'
+);
+INSERT INTO SubCategories(
+SubCategory_Name,MainCategory_ID
+)VALUES(
+'Long','1'
+);
+INSERT INTO SubCategories(
+SubCategory_Name,MainCategory_ID
+)VALUES(
+'ToolSub','2'
+);
+INSERT INTO SubCategories(
+SubCategory_Name,MainCategory_ID
+)VALUES(
+'OtherSub','3'
+);
+
+
+INSERT INTO UserType(
+UserType_Name
+)VALUES(
+'User'
+);
+
+INSERT INTO UserType(
+UserType_Name
+)VALUES(
+'Admin'
+);
+
+INSERT INTO Users(
+Users_Username,Users_Password,Users_FName,Users_LName,Users_Email,Users_Phone,
+Users_BirtDate,UserType_ID
+)VALUES(
+'ToeyAIYU','1234','Teepakorn','Kumvong','Teeprakorn.toey@gmail.com','0922957363','2003-12-21','1'
+);
+
+INSERT INTO Users(
+Users_Username,Users_Password,Users_FName,Users_LName,Users_Email,Users_Phone,
+Users_BirtDate,UserType_ID
+)VALUES(
+'Admin','1234','Teepakorn','Kumvong','Teeprakorn.toey@gmail.com','0922957363','2003-12-21','2'
+);
+
+CREATE TABLE [dbo].[cart](
+	cartid INT IDENTITY(1,1) NOT NULL,
+	userid INT ,
+	productid INT ,
+	price FLOAT ,
+	amount INT ,
+)
+
+SELECT TOP (8) P.*,S.SubCategory_Name,M.MainCategory_Name FROM ((Product P
+INNER JOIN SubCategories S ON P.SubCategory_ID = S.SubCategory_ID)
+INNER JOIN MainCategories M ON S.MainCategory_ID = M.MainCategory_ID)
+WHERE S.SubCategory_Name='OtherSub';
+
+SELECT Product.*,SubCategories.SubCategory_Name FROM Product INNER JOIN
+SubCategories ON Product.SubCategory_ID = SubCategories.SubCategory_ID
+WHERE SubCategories.SubCategory_ID = 1
+
+
+
+
+SELECT p.*,s.OrdersStatus_Name FROM 
+                Orders p INNER JOIN OrdersStatus s ON  p.OrderStatus_ID = s.OrdersStatus_ID
+                WHERE Orders_ID ='12'
+
+
+CREATE TABLE OrderDetail(
+OrderDetail_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+OrderDetail_Price FLOAT,
+OrderDetail_Equipment_Quality INT,
+OrderDetail_Male_Quality INT,
+OrderDetail_Female_Quality INT,
+Product_ID INT FOREIGN KEY REFERENCES Product(Product_ID),
+Orders_ID INT FOREIGN KEY REFERENCES Orders(Orders_ID),
+)
+
+drop table OrderDetail
+
+CREATE TABLE OrderStatus(
+OrderStatus_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+OrderStatus_Name VARCHAR(128)
+)
+
+CREATE TABLE Delivery(
+Delivery_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+Delivery_RegisDate DATETIME DEFAULT CURRENT_TIMESTAMP,
+Address_ID INT FOREIGN KEY REFERENCES Address(Address_ID),
+DeliveryType_ID INT FOREIGN KEY REFERENCES DeliveryType(DeliveryType_ID),
+DeliveryStatus_ID INT FOREIGN KEY REFERENCES DeliveryStatus(DeliveryStatus_ID)
+);
+
+CREATE TABLE Orders(
+Orders_ID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+Orders_TotalPrice FLOAT,
+Orders_RegisDate DATETIME DEFAULT CURRENT_TIMESTAMP,
+Users_ID INT FOREIGN KEY REFERENCES Users(Users_ID),
+Payment_ID INT FOREIGN KEY REFERENCES Payment(Payment_ID),
+OrderStatus_ID INT FOREIGN KEY REFERENCES OrderStatus(OrderStatus_ID),
+Delivery_ID INT FOREIGN KEY REFERENCES Delivery(Delivery_ID)
+);
+
+
+INSERT INTO OrderStatus(
+OrderStatus_Name
+)VALUES(
+'None'
+);
+
+INSERT INTO OrderStatus(
+OrderStatus_Name
+)VALUES(
+'Check'
+);
+
+INSERT INTO OrderStatus(
+OrderStatus_Name
+)VALUES(
+'Finish'
+);
+SELECT COUNT(*) FROM OrderDetail WHERE Orders_ID = '{0}'AND Product_ID  = '{1}'
+
+SELECT Delivery_ID FROM Delivery WHERE Address_ID ='3' AND DeliveryStatus_ID = '1'
+DELETE Delivery FROM Delivery
+DELETE Payment FROM Payment
+DELETE Orders FROM Orders
+DELETE OrderDetail FROM OrderDetail
+
+INSERT INTO Orders(Users_ID,OrderStatus_ID,Payment_ID,Delivery_ID)
+VALUES('1','1','4','4')
+           

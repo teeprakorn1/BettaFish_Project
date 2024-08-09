@@ -1,0 +1,209 @@
+.articles-master-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.articles-master-articles-master {
+  width: 100%;
+  height: 2308px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(244, 244, 244, 1);
+}
+.articles-master-bodyview {
+  top: 86px;
+  left: 0px;
+  width: 1920px;
+  height: 2222px;
+  position: absolute;
+}
+.articles-master-blackgroud {
+  top: 157.775146484375px;
+  left: -410.9935607910156px;
+  width: 2983.979248046875px;
+  height: 3534.7099609375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.articles-master-rectangle83 {
+  top: 980.2333374023438px;
+  left: 1777.670654296875px;
+  width: 1894px;
+  height: 1718px;
+  position: absolute;
+}
+.articles-master-rectangle82 {
+  top: 1262.2335205078125px;
+  left: 720.0402221679688px;
+  width: 1029px;
+  height: 934px;
+  position: absolute;
+}
+.articles-master-rectangle91 {
+  top: 339.3746032714844px;
+  left: 2715.673583984375px;
+  width: 626px;
+  height: 419px;
+  position: absolute;
+}
+.articles-master-rectangle90 {
+  top: 115.22797393798828px;
+  left: 411.9935607910156px;
+  width: 1920px;
+  height: 463px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 3px;
+}
+.articles-master-low-bar {
+  top: 2222px;
+  left: 0px;
+  width: 1920px;
+  height: 86px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(164, 189, 219, 1);
+}
+.articles-master-text {
+  top: 23px;
+  left: 697px;
+  color: rgba(59, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.articles-master-rectangle89 {
+  top: 985px;
+  left: 68px;
+  width: 1774px;
+  height: 1185px;
+  position: absolute;
+  border-color: rgba(212, 212, 212, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+}
+.articles-master-text2 {
+  top: 1066px;
+  left: 157px;
+  color: rgb(132, 119, 0);
+  width: 1597px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.articles-master-text3 {
+  color: #847700;
+}
+.articles-master-text5 {
+  color: #000000;
+}
+.articles-master-text6 {
+  color: #000000;
+}
+.articles-master-text7 {
+  color: #000000;
+}
+.articles-master-image01 {
+  top: 187px;
+  left: 424px;
+  width: 1074px;
+  height: 634px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(229, 229, 229, 1);
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 8px;
+}
+.articles-master-show01 {
+  top: 896px;
+  left: 0px;
+  right: 0px;
+  width: 631.9999389648438px;
+  height: 119.94495391845703px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.articles-master-text8 {
+  color: var(--dl-color-font-color);
+  width: 100%;
+  height: 100%;
+  font-size: 64px;
+  align-self: flex-end;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.articles-master-group118 {
+  top: 1561px;
+  left: 70px;
+  width: 1772px;
+  height: 519px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(226, 226, 226, 1);
+}
+.articles-master-rectangle96 {
+  top: 82px;
+  left: 87px;
+  width: 476px;
+  height: 356px;
+  position: absolute;
+  border-color: rgba(142, 142, 142, 1);
+  border-radius: 62px;
+}
+.articles-master-rectangle98 {
+  top: 82px;
+  left: 644px;
+  width: 490px;
+  height: 356px;
+  position: absolute;
+  border-color: rgba(142, 142, 142, 1);
+  border-radius: 44px;
+}
+.articles-master-rectangle97 {
+  top: 82px;
+  left: 1215px;
+  width: 490px;
+  height: 356px;
+  position: absolute;
+  border-color: rgba(142, 142, 142, 1);
+  border-radius: 51px;
+}

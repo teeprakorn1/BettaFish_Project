@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master_Navigation.master.cs" Inherits="Master_Navigation" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta http-equifv="content-language" content="text/html" charset="windows-1251" />
+    <title>BettaFish Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <link href="./styles/navbar.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="wrapper">
+    <nav>
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo">
+          <asp:LinkButton ID="Logo_btn" PostBackUrl="~/main.aspx" runat="server">^ BettaFIsh</asp:LinkButton>
+          <asp:LinkButton ID="Logo_Admin_btn" PostBackUrl="~/Pages/Admin/Admin_Main.aspx" runat="server">^ BettaFIsh</asp:LinkButton>
+      </div>
+        <ul class="links">
+          <li>
+              <asp:LinkButton ID="Main_btn" PostBackUrl="~/main.aspx" runat="server">หน้าแรก</asp:LinkButton>
+              <asp:LinkButton ID="Product_btn" PostBackUrl="~/Pages/Admin/Admin_Product_Add.aspx" runat="server">สินค้า</asp:LinkButton>
+          </li>
+          <li>
+              <asp:LinkButton ID="ShopMain_btn" PostBackUrl="~/Pages/Shop/Shop_Fish.aspx" runat="server">ร้านค้า</asp:LinkButton>
+              <asp:LinkButton ID="Delivery_btn" PostBackUrl="~/Pages/Admin/Admin_Delivery.aspx" runat="server">จัดส่ง</asp:LinkButton>
+            <ul>
+            <asp:Label ID="Shop_DDL" runat="server">
+              <li><asp:LinkButton ID="Shop01_btn" PostBackUrl="~/Pages/Shop/Shop_Fish.aspx" runat="server">รวมประเภท</asp:LinkButton></li>
+              <li><asp:LinkButton ID="Shop02_btn" PostBackUrl="~/Pages/Shop/ShopSearch.aspx" runat="server">ค้นหา</asp:LinkButton></li>
+            </asp:Label>
+            </ul>
+          </li>
+          <li>
+              <asp:LinkButton ID="ArticleMain_btn" PostBackUrl="~/Pages/User/Articles_01.aspx" runat="server">บทความ</asp:LinkButton>
+              <asp:LinkButton ID="Promotion_btn" PostBackUrl="~/Pages/Admin/Admin_Promotion_Edit.aspx" runat="server">โปรโมชั่น</asp:LinkButton>
+            <ul>
+            <asp:Label ID="Article_DDL" runat="server">
+              <li><asp:LinkButton ID="Article01_btn" PostBackUrl="~/Pages/User/Articles_01.aspx" runat="server">ประวัติปลากัด</asp:LinkButton></li>
+              <li><asp:LinkButton ID="Article02_btn" PostBackUrl="~/Pages/User/Articles_02.aspx" runat="server">ปลากัดมงคล</asp:LinkButton></li>
+            </asp:Label>
+            </ul>
+          </li>
+          <li><asp:LinkButton ID="Payment_btn" PostBackUrl="~/Pages/User/payment.aspx" runat="server">การเงิน</asp:LinkButton></li>
+          <li><asp:LinkButton ID="Help_btn" PostBackUrl="~/Pages/User/help_main.aspx" runat="server">ช่วยเหลือ</asp:LinkButton></li>
+        </ul>
+      </div>
+      <div class="content">
+        <ul class="links">  
+          <li>
+              <asp:LinkButton ID="Login_btn" PostBackUrl="~/Pages/Login.aspx" runat="server">เข้าสู่ระบบ</asp:LinkButton>
+              <asp:LinkButton ID="cart_btn" PostBackUrl="~/Pages/Shop/CartFish.aspx" runat="server">ตะกร้า</asp:LinkButton>
+          </li>
+
+          <li>
+              <asp:LinkButton ID="register_btn" PostBackUrl="~/Pages/Register.aspx" runat="server">ลงทะเบียน</asp:LinkButton>
+              <asp:LinkButton ID="profile_btn" PostBackUrl="~/Pages/Profile/Profile.aspx" runat="server">MY PROFILE</asp:LinkButton>
+              <asp:LinkButton ID="Logout_Admin_btn" runat="server" OnClick="Logout_Admin_btn_Click">ออกจากระบบ</asp:LinkButton>
+              <ul>
+              <asp:Label ID="profile_DDL" runat="server">
+                <li><asp:LinkButton ID="LinkButton1" PostBackUrl="~/Pages/Orders/Orders_Main.aspx" runat="server">ติดตามพัสดุ</asp:LinkButton></li>
+                <li><asp:LinkButton ID="LinkButton2" PostBackUrl="~/Pages/Profile/Profile.aspx" runat="server">แก้ไขโปรไฟล์</asp:LinkButton></li>
+                <li><asp:LinkButton ID="Logout_btn" runat="server" OnClick="Logout_btn_OnClick" >ออกจากระบบ</asp:LinkButton></li>
+              </asp:Label>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="dummy-text">
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+    </asp:ContentPlaceHolder>
+  </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+.parent {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    width: 500px;
+    height: 500px
+}
+
+.child {
+    border-radius: 10px;
+    display: inline-block;
+    margin: 2px;
+    padding: 20px;
+    vertical-align: middle;
+    background-color: ghostwhite;
+    border: 1px solid black;
+}
+.child-1 {
+    border-radius: 10px;
+    display: flex;
+    margin: 2px;
+    padding: 20px;
+    vertical-align: middle;
+    background-color: ghostwhite;
+    border: 1px solid black;
+}
+    .child-1 .text {
+        margin-left: 200px;
+        font-size: 25px;
+    }
+    .child-1 .text-1{
+        margin-left: 210px;
+        font-size: 20px;
+    }
+
+.cart {
+    text-align: center;
+    font-size: 100px;
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+}
+.image-1 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    align-items: center;
+    display: inline-block;
+}

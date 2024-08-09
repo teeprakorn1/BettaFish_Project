@@ -1,0 +1,136 @@
+﻿.body {
+    height: 100%;
+}
+
+
+.BannerFishShop {
+    width:100%;
+    background-color: #EEEEEE;
+    padding: 20px; /* เพิ่ม padding ตามที่คุณต้องการ */
+    text-align: center;
+}
+
+.SBfishShop {
+    margin-top: 20px; /* ตั้งค่า margin-top ตามที่คุณต้องการ */
+    
+}
+
+.sec {
+    padding: 10px 5%;
+    display: grid;
+    /*grid-template-columns: repeat(auto-fill, minmax(300px,1fr));*/
+    grid-template-columns: repeat(5, 1fr); /*4 คอมลัมน์แบบธรรมดา*/
+    grid-gap: 50px; /* ระยะห่างระหว่างองค์ประกอบ */
+    background-color: #ffffff;
+    position: relative; /* เพิ่มการกำหนด position เป็น relative เพื่อให้ z-index ทำงาน */
+    z-index: 0; /* กำหนด z-index ให้น้อยกว่า dropdown list */
+}
+.fish-container{
+
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.DropfishShop{
+    width:100%;
+    height:100px;
+}
+
+.bettafish-title {
+    font-size: 5em; /* ปรับขนาดตามที่คุณต้องการ */
+}
+
+.bettafish01-title {
+    font-size: 1.5em; /* ปรับขนาดตามที่คุณต้องการ */
+}
+
+.Allfish {
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.product {
+    flex: 0 0 33.333%; /* ให้แสดง 3 สินค้าในแต่ละแถว (ในที่นี้คือ 33.333%) */
+    padding: 10px; /* ปรับขอบรอบของแต่ละสินค้า */
+    box-sizing: border-box;
+}
+/*-------------------------หน้าCart-------------------------------------------*/
+.PromoAdd {
+    display: flex;
+    align-items: center; /* จัดให้อยู่ตรงกลางตามแนวตั้ง */
+    justify-content: flex-start; /* จัดให้อยู่ซ้ายมือ */
+}
+
+    justify-content: flex-start; /* จัดให้อยู่ซ้ายมือ */
+}
+
+.PromoUseBT {
+    margin-left: 10px; /* ระยะห่างระหว่าง TextBox กับ Button */
+}
+
+.ClearBT {
+    display: flex;
+    flex-direction: column; /* จัดให้เรียงแนวตั้ง */
+    align-items: flex-end; /* จัดให้อยู่ทางขวา */
+}
+
+.PayBT {
+    margin-top: 10px; /* ระยะห่างด้านบนระหว่างปุ่ม Clear และ ปุ่ม ชำระเงิน */
+}
+
+.CartHeader {
+    font-size: 40px;
+    background-color: #333d6e; /* สีน้ำเงิน */
+    color: #ffffff; /* สีข้อความ */
+    padding: 10px; /* ระยะห่างภายใน */
+    text-align: left; /* จัดข้อความทางซ้าย */
+}
+
+.CartShowP {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.BMGG img {
+    width: 146px; /* กำหนดความกว้างของภาพ */
+    height: 115px; /* กำหนดความสูงของภาพ */
+    float: left; /* จัดตำแหน่งไปทางด้านซ้าย */
+}
+
+.BankIMG {
+    margin-left: 250px;
+}
+
+.Heardnong {
+    background-color: #f0f0f0; /* กำหนดสีพื้นหลังเป็นสีเทาอ่อน */
+    padding: 10px; /* เพิ่มระยะห่างภายใน */
+}
+
+.ngong {
+    background-color: #f0f0f0; /* กำหนดสีพื้นหลังเป็นสีเทาอ่อน */
+    padding: 10px; /* เพิ่มระยะห่างภายใน */
+}
+
+.Raka {
+    text-align: right;
+}
+
+.Tomyum {
+    background-color: #f0f0f0; /* กำหนดสีพื้นหลังเป็นสีเทาอ่อน */
+    width: 100%; /* กำหนดความกว้างให้เท่ากับครึ่งหน้าจอ */
+    margin: 0 auto; /* จัดตำแหน่งให้อยู่กึ่งกลาง */
+    padding: 20px; /* เพิ่มระยะห่างภายใน */
+}
+
+.HD {
+    background-color: navy; /* กำหนดสีพื้นหลังเป็นสีน้ำเงินเข้ม */
+    color: white; /* กำหนดสีข้อความเป็นสีขาว */
+    text-align: left; /* จัดข้อความไปทางซ้าย */
+    padding: 10px; /* เพิ่มระยะห่างภายใน */
+    font-size: 40px; /* กำหนดขนาดตัวอักษร */
+    font-weight: bold; /* กำหนดตัวหนา */
+}

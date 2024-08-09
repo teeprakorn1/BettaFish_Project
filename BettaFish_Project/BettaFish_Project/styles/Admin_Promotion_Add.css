@@ -1,0 +1,169 @@
+.admin-add-promotion-master-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.admin-add-promotion-master-admin-add-promotion-master {
+  width: 100%;
+  height: 1117px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  background-color: rgba(208, 208, 208, 1);
+}
+.admin-add-promotion-master-bodyview {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 1920px;
+  height: 1117px;
+  margin: auto;
+  position: absolute;
+}
+.admin-add-promotion-master-regisitem {
+  top: 100px;
+  left: 0px;
+  right: 0px;
+  width: 1752px;
+  height: 881px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.admin-add-promotion-master-product-id {
+  top: 172px;
+  left: 0px;
+  right: 0px;
+  width: 1348px;
+  height: 122px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-add-promotion-master-rectangle2 {
+  top: 36px;
+  left: 0px;
+  right: 0px;
+  width: 1340px;
+  height: 86px;
+  margin: auto;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-add-promotion-master-text {
+  left: 0px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-add-promotion-master-product-id1 {
+  top: 349px;
+  left: 0px;
+  right: 0px;
+  width: 1348px;
+  height: 122px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.admin-add-promotion-master-rectangle21 {
+  top: 36px;
+  left: 0px;
+  right: 0px;
+  width: 1340px;
+  height: 86px;
+  margin: auto;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.admin-add-promotion-master-text2 {
+  left: 0px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-add-promotion-master-registergroup {
+  top: 585px;
+  left: 665px;
+  width: 430px;
+  height: 90.12353515625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(13, 65, 102, 1);
+}
+.admin-add-promotion-master-text4 {
+  top: 10px;
+  left: 0px;
+  color: rgba(255, 255, 255, 1);
+  right: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-add-promotion-master-text6 {
+  top: 40px;
+  left: 0px;
+  color: rgba(0, 0, 0, 1);
+  right: 0px;
+  width: 591px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
