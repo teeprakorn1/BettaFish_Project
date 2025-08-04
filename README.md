@@ -64,6 +64,10 @@ This project was developed as part of a third-year university course focused on:
 |-----------|--------------|--------|-----------|-----------|-----------|-----------|-----------|
 | ![](screenshots/main_screen.jpg) | ![](screenshots/register_screen.jpg) | ![](screenshots/article_screen.jpg) | ![](screenshots/login_screen.jpg) | ![](screenshots/cart_screen.jpg) | ![](screenshots/shop_screen.jpg) | ![](screenshots/shop_select_screen.jpg) |  ![](screenshots/shop_tool_screen.jpg) | 
 
+| Add Address Screen | Admin Add Promotion Screen | Admin_Add Product Screen | Admin Delivery Screen | Admin Edit Promotion Screen | Admin Main Screen | Admin Product Screen | Edit Address Screen |Edit Profile Screen |
+|-----------|--------------|--------|-----------|-----------|-----------|-----------|-----------|-----------|
+| ![](screenshots/add_address_screen.jpg) | ![](screenshots/admin_add_promotion_screen.jpg) | ![](screenshots/Admin_AddProduct_Master.jpg) | ![](screenshots/admin_delivery_screen.jpg) | ![](screenshots/admin_edit_promotion_screen.jpg) | ![](screenshots/admin_main_screen.jpg) | ![](screenshots/admin_product_screen.jpg) |  ![](screenshots/edit_address_screen.jpg) |   ![](screenshots/edit_profile_screen.jpg) | 
+
 ---
 
 
