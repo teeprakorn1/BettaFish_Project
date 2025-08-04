@@ -45,6 +45,15 @@ The BettaFish_Project system consists of **3 main components**, each handling a 
 - 🗃️ SQL Server
 - 🔐 Entity Framework (Database ORM)
 
+### 🎓 Academic Context
+
+This project was developed as part of a third-year university course focused on:
+
+- Web development using ASP.NET
+- Database-driven e-commerce systems
+- Frontend & backend integration
+- Business-oriented web application design
+
 ---
 
 ## 📸 Screenshots (Placeholder)
@@ -54,15 +63,6 @@ The BettaFish_Project system consists of **3 main components**, each handling a 
 | Main Screen | Register Screen | Article Screen | Login Screen | Cart Screen | Shop Screen | Shop Select Screen | Shop Tool Screen |
 |-----------|--------------|--------|-----------|-----------|-----------|-----------|-----------|
 | ![](screenshots/main_screen.jpg) | ![](screenshots/register_screen.jpg) | ![](screenshots/article_screen.jpg) | ![](screenshots/login_screen.jpg) | ![](screenshots/cart_screen.jpg) | ![](screenshots/shop_screen.jpg) | ![](screenshots/shop_select_screen.jpg) |  ![](screenshots/shop_tool_screen.jpg) | 
-
-## 📚 Academic Context
-
-This project was developed as part of a third-year university course focused on:
-
-- Web development using ASP.NET
-- Database-driven e-commerce systems
-- Frontend & backend integration
-- Business-oriented web application design
 
 ---
 
