@@ -33,7 +33,7 @@ The BettaFish_Project system consists of **3 main components**, each handling a 
 
 ---
 
-## 🔧 Tech Stack
+## 🧰 Tech Stack
 
 ### 💻 Frontend (ASP.NET)
 
